@@ -316,4 +316,3 @@ dist
 # go
 vendor
 bin
-.public
