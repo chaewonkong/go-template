@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/chaewonkong/go-template/compare/v1.1.0...v1.1.1) (2023-01-20)
+
+
+### Bug Fixes
+
+* inject env from dotenv via makefile ([dce58a5](https://github.com/chaewonkong/go-template/commit/dce58a56ec0f23ec816b6f241d87b3f259f17580))
+
 ## [1.1.0](https://github.com/chaewonkong/go-template/compare/v1.0.0...v1.1.0) (2023-01-18)
 
 
