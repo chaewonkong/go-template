@@ -2,15 +2,20 @@
 GREEN=\033[1;32;40m
 NC=\033[0m\n
 
-PHONY: gitlab-token
+# export env
+include .env
+export
 
 # install dependencies: tidy for removing unused packages, vendor for installing packages in vendor directory
-ref:
+install:
 	@/bin/sh -c 'echo "${GREEN}[Install packages in vendor directory]${NC}"'
 	@go mod tidy -v
 	@go mod vendor -v
-.PHONY: ref
+.PHONY: install
 
+# run
+run:
+	@go run main.go
 
 # build
 build:
